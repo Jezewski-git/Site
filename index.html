@@ -29,7 +29,7 @@
         <article> 
 
             <p>
-                Olá! Eu soi o Matheus, sou estudande de Desenvolver Web, adicionado mais um texto.
+                Olá! Eu soi o Matheus, sou estudande de Desenvolver Web
             </p>
             
         </article>
@@ -74,12 +74,40 @@
 
             <p>Tem um projeto em mente? Entre em contato.</p>
 
-            <form action="">
+           <form action="">
 
-                <label for="nome">Nome: </label>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" required> <br>
 
-            </form>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required><br>
 
+            <label for="telefone">Telefone: </label>
+            <input type="telefone" id="telefone" name="telefone"><br>
+
+            <label for="assunto">Assunto: </label>
+            <select name="assunto" id="assunto">
+                <option value="orcamento">Orçamento</option>
+                <option value="duvida">Duvida</option>
+                <option value="outro">Outro</option>
+            </select>
+            
+            
+            <label for="mensagem">Mensagem: </label> <br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            
+            <input type="checkbox" id="inscricao" name="inscricao"> 
+            <label for="inscricao">Deseja receber minha newsletter? fique por dentro. </label> 
+        
+            <br>
+
+
+
+            <input type="submit" valeu="Enviar mensagem">
+                </form>
+        
+
+            <input type="date" name="data" id="date">
         </section>
 
     </footer>
